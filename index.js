@@ -21,8 +21,8 @@ convertBtn.addEventListener("click", function(){
 
     lengthEl.innerHTML = `${enteredNumber} meters = ${Number(enteredNumber*3.281).toFixed(3) } feet | ${enteredNumber} feet = ${Number(enteredNumber/3.281).toFixed(3) }  meters`
     
-    volumeEl.innerHTML = `${enteredNumber} liter = ${Number(enteredNumber*0.264).toFixed(3) } gallon | ${enteredNumber} gallon = ${Number(enteredNumber/0.264).toFixed(3) }  liters`
+    volumeEl.innerHTML = `${enteredNumber} liters = ${Number(enteredNumber*0.264).toFixed(3) } gallons | ${enteredNumber} gallons = ${Number(enteredNumber/0.264).toFixed(3) }  liters`
     
-    massEl.innerHTML = `${enteredNumber} kilogram = ${Number(enteredNumber*2.204).toFixed(3) } pound | ${enteredNumber} pound = ${Number(enteredNumber/2.204).toFixed(3) }  kilograms`
+    massEl.innerHTML = `${enteredNumber} kilograms = ${Number(enteredNumber*2.204).toFixed(3) } pounds | ${enteredNumber} pounds = ${Number(enteredNumber/2.204).toFixed(3) }  kilograms`
 })
 
